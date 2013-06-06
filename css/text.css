@@ -1,0 +1,301 @@
+/*Alberto Quispe Cuzcano, Junio 2012*/
+h1, h2, h3, h4, p, span {
+padding-top:0;padding-bottom:0px;
+margin-top:0;margin-bottom:10px;
+}
+body {
+	line-height: 12px;
+	color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1, h1 a {
+	font-size: 16px;
+	font-style: normal;
+	line-height: 120%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+}
+
+h2, h2 a {
+	font-size: 14px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	line-height: 120%;
+	}
+.parr p{
+	font-size:14px;
+}
+.par h2{
+        font-size:14px;
+	    font-family:Verdana, Geneva, sans-serif;
+}
+.par1 h1{
+        font-size:26px;
+	    font-family:Arial, Helvetica, sans-serif;
+		line-height:30px;
+}
+.par2 p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+p, h3 {
+	color: #000000;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 120%;
+	font-weight: normal;
+}	
+p{
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:left;
+	margin-left:25px;
+}	
+h4 {
+	font-size: 11px;
+	font-style: normal;
+	line-height: 13px;
+	font-variant: normal;
+	font-weight:normal;
+}
+h5 {
+	font-size: 9px;
+	font-style: normal;
+	line-height: 11px;
+	font-variant: normal;
+	font-weight:normal;
+}
+.letra{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666666;
+}
+.letra1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+}
+.letra2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:23px;
+	font-weight:bold;
+}
+.letra3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.letra4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.letra5{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.letra6{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+.letra7{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:333333 !important;
+	font-weight:bold;
+	line-height:22px;
+}
+.par .letra8{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	color:#666666;
+	font-weight:bold;
+}
+.letra9 p{
+	margin-left:97px;
+	padding-bottom:20px;
+	background-color:C2C2C2;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.letra10 p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.letra11 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#333;
+}
+.tabla02 h1{
+	color:#26AC5D;
+	font-size:24px;
+	line-height:26px;
+	font-weight:bold;
+	}
+.dN3 h1{
+	color:#26AC5D;
+	font-size:24px;
+	line-height:26px;
+	font-weight:bold;
+	}
+.dN3 h2{
+	font-size: 16px;
+	line-height: 18px;
+
+}
+.dN3 h3{
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.mas, .vermas, .ocultarmas{
+	color:#26AC5D;
+	font-size:11px;
+	line-height:13px;
+	font-weight:bold;
+	}
+.tit01{
+	color:#26AC5D;
+	font-size:24px;
+	line-height:26px;
+	font-weight:bold;
+	}
+.tit02{
+	background:url(../images/misc/bg_gris1.jpg) 0 bottom repeat-x;
+	border:solid 1px #ccc;
+	padding:15px 15px;
+	font-weight:bold;
+	margin-bottom:1px;
+	}
+.tit04{
+	color:#333;
+	font-size:24px;
+	line-height:26px;
+	font-weight:bold;
+	}
+.tit05{
+	color:#FF8F00 !important;
+	font-size:30px;
+	line-height:30px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    }
+.tit06{
+	color:#000 !important;
+	font-size:30px;
+	line-height:30px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    }
+.tit07{
+	color:#666666 !important;
+	font-size:30px;
+	line-height:30px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    }
+.tit08{
+	color:#FF8C00;
+	font-size:29px !important;
+	line-height:26px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.tablasb h1{
+	font-size:30px;
+	line-height:33px;
+	font-weight:bold;
+	}	
+.tCeleste{
+	color:#0099CC;
+	}
+.tnar{
+	color:#FF8C00;
+	}
+.dCom1 h2{
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+.dCom2 h2{
+	margin-bottom:20px;
+	line-height:18px;
+	}
+.dB3A h1{
+	font-size:28px;
+	line-height:30px;
+	}
+.tCnaranja .path2{
+	color:#FF8F00;
+	}
+.tCnegro .path2{
+	color:#000;
+}
+.tCverdef .path2{
+	color:#26AC5D;
+	}		
+.tCverde .path2{
+	color:#8CCC59;
+	}
+.tCverde .tabla02 h1{
+	color:#8CCC59;
+	}
+.tCverde .tabla02 td span{
+	color:#8CCC59;
+	}
+.tCverde .tabla02 .head td{
+	background-color:#FFBB00;
+	}
+.tCverde .tabla08 .head td{
+	background-color:#EAEBC0;
+	}	
+.tCverde .dN3 h1{
+	color:#8CCC59;
+	}
+.tCverde .mas, .tCverde .vermas, .tCverde .ocultarmas{
+	color:#8CCC59;
+	}
+.tCverde .tit01 , .tCverde .tit03{
+	color:#8CCC59;
+	}
+.tit03{
+	font-weight:bold;
+	font-size:24px;
+	line-height:26px;
+	}
+.tit07{
+	font-weight:bold;
+	font-size:24px;
+	line-height:26px;
+	color:#26AC5D;
+}
+.under1{
+	text-decoration:underline;
+}
+.head3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#000;
+}   
+/*Agregados*/
+.dContent h2{
+	font-size: 14px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	line-height: 16px;
+	}
+.dContent h3{
+	font-size:14px;
+	line-height:16px;
+	}    

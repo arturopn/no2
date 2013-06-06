@@ -1,0 +1,11 @@
+/*
+@Author: Alberto Quispe Cuzcano para DaniloBlack www.daniloblack.com
+@Fecha: Enero 2012
+@Version:  1.0
+CSS descriptions here:
+> basics.css: tags replacements y layout
+> main.css: estilos usados en este proyecto
+> textos.css: estilos de textos
+*/
+@import "main.css";
+@import "text.css";

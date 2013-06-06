@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Titulo</title>
+<link href="css/dbstyles.css" rel="stylesheet" type="text/css" />
+<link rel="alternate stylesheet" type="text/css" media="screen,print" href="css/text.css" title="normal" />
+<link href="css/printversion.css" rel="stylesheet" type="text/css" media="print"/>
+<!--[if lte IE 6]><link rel="stylesheet" href="../css/ie.css" /><![endif]-->
+<script src="js/jquery.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/shadowbox.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/functions.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/engine.js" type="text/javascript" language="javascript1.2"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+$('#consulta1,#consulta2,#consulta3,#consulta4,#consulta5,#consulta6,#consulta7').click(function(){
+		$('#especialidad').hide();
+		});
+	$('#consulta8').click(function(){
+		$('#especialidad').show();
+		});
+	});
+</script>
+</head>
+<body class="bgsb">
+
+	<div class="dSb2">
+		
+    <h1 class="tit01 tCeleste mBot20">Registro de Citas</h1>
+    <div class="clearfix dPasos">
+    	<span class="on">Paso 1</span>
+      <span>Paso 2</span>
+    </div>
+    <table class="tabla05" width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="3"><h2><strong>Nombre:</strong></h2>
+<select name="">
+  <option>1234-1 Ernesto perez</option>
+</select></td>
+      </tr>
+      <tr>
+        <td colspan="3"><h2><strong>Tipo de Consulta:</strong></h2></td>
+      </tr>
+      <tr>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta1"/> <h2>Medicina Familiar<br />Adulto</h2></td>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta2"/> <h2>Pediatría</h2></td>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta3"/> <h2>Dental</h2></td>
+      </tr>
+      <tr>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta4"/> <h2>Niño Sano</h2></td>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta5"/> <h2>Homeopatía</h2></td>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta6"/> <h2>Nutrición</h2></td>
+      </tr>
+      <tr>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta7"/> <h2>Psicología</h2></td>
+        <td><input name="consultar" type="radio" class="fLeft" id="consulta8"/> <h2>Especialistas</h2></td>
+         <td>
+         <div id="especialidad" style="display:none">
+                            <select name="">
+                            <option>Selecciona uno</option>
+                            </select> 
+                             </div>
+         </td>
+      </tr>
+    </table>
+		<div align="center">
+    	<a class="mRight20" href="#"><img src="images/btns/btn_cancelar.jpg" width="142" height="31" alt="" /></a><a href="salud_registro_citas_2.html"><img src="images/btns/btn_siguiente.jpg" width="142" height="31" alt="" /></a>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<script>
+	$(document).ready(function() {
+
+	/*scrollto*/
+	$('#CubTab').serialScroll({target:'#CT_secction',items:'li', prev:'a.btn_prev',next:'a.btn_next',axis:'xy',queue:false,event:'click',stop:false,lock:true, duration:1000,start: 0, force:true,cycle:true,step:1, jump:false, lazy:false,interval:5000, navigation:'#CT_navigation li',constant:true,onBefore:function( e, elem, $pane, $items, pos ){ $("#CT_navigation li a").removeClass("cubo_btn_act");$('#'+$($("#CT_navigation li").get(pos)).attr("id")+' a').addClass("cubo_btn_act"); e.preventDefault();if( this.blur )this.blur();},onAfter:function( elem ){}});
+			
+	$('#btnpause').addClass('btnpause');
+	$("#btnpause").toggle(function(){
+		$('#CT_secction').trigger( 'stop' );
+		$('#btnpause').addClass('act_play');
+		},function(){
+		$('#CT_secction').trigger( 'start' );
+		$('#btnpause').removeClass('act_play');
+	});
+	
+
+	
+});
+</script>
+<div id="CubTab">
+	<div id="CT_navigation" class="CT_culture clearfix">
+                            <ul class="clearfix">
+                              <li id="CT_link_1"><a class="cubo_btn_act" href="#">1</a></li>
+                              <li id="CT_link_2"><a href="#">2</a></li>
+                            </ul>                                  
+                          </div>	
+                          <div id="CT_secction">
+                            <ul>
+                                <li>
+                                    <div><a href="ca_informacion.html"><img src="images/stages/stage_caja01.jpg" width="718" height="340" alt="" /></a></div>
+                                </li>
+                                <li>
+                                    <div><a href="ca_informacion.html"><img src="images/stages/stage_caja02.jpg" width="718" height="340" alt="" /></a></div>
+                                </li>
+                            </ul>
+                          </div>          
+                      </div>

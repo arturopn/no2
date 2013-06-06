@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Titulo</title>
+<link href="css/dbstyles.css" rel="stylesheet" type="text/css" />
+<link rel="alternate stylesheet" type="text/css" media="screen,print" href="css/text.css" title="normal" />
+<link href="css/printversion.css" rel="stylesheet" type="text/css" media="print"/>
+<!--[if lte IE 6]><link rel="stylesheet" href="../css/ie.css" /><![endif]-->
+<script src="js/jquery.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/shadowbox.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/functions.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/engine.js" type="text/javascript" language="javascript1.2"></script>
+<script type="text/javascript">
+  	$(document).ready(function(){
+		$('.submenu').hover(
+				function(){
+					$(this).find('ul').css('left','auto');
+					$(this).addClass('sfhover');
+				},
+				function(){
+					$(this).find('ul').css('left','-999em');
+					$(this).removeClass('sfhover');
+				}
+			);
+			
+			$('#cotizar').click(function(){ $('#paquetes').show(); return false; });
+			
+	});
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="main">
+  	<div class="dSombraI">
+			<div class="dSombraD">
+    	<div class="dSombraB">
+      	<div class="dBGmain">
+      		<div id="header" class="clearfix">
+          	<a href="home.html"><img src="images/header/logo.gif" width="81" height="119" alt="" class="fLeft" /></a>
+            <div class="dHead1">
+            	<div class="clearfix mBot20">
+              	<div class="dH1a">
+                	Noviembre 14 de 2012<br />
+Bienvenido, Jorge Cepeda Martínez
+                </div>
+                <div class="dH1b clearfix">
+                	<button type="submit"><img src="images/header/btn_buscar.gif" width="26" height="26" alt="" /></button><input name="" type="text" value="Buscar" />
+                </div>
+              </div>
+            	<ul id="nav" class="clearfix">
+              	<li><a class="izq" href="home.html">Home</a></li>
+                <li class="submenu"><a href="historia_somos.html">Somos SCYF</a>
+                <ul>
+                <li>
+                <a href="historia_quienes.html">Identidad</a>
+                </li>
+                <li>
+                <a href="historia_antecedentes.html">Historia</a>
+                </li>
+                <li>
+                <a href="historia_filosofia_identidad.html">Filosofía</a>
+                </li>
+                <li>
+                <a href="historia_institucion_proposito.html">Institución</a>
+                </li>
+                </ul>
+                </li>
+                 <li class="submenu">
+                <a  href="caja_ahorro.html">Caja de Ahorro</a>
+                <ul>
+                <li>
+                <a href="ca_transaccionar2.html">Separación de Ahorros</a>
+                </li>
+                <li>
+                <a href="ca_transaccionar2_1.html">Pago de Préstamos</a>
+                </li>
+                <li>
+                <a href="ca_estado_cuenta.html">Estado de Cuenta</a>
+                </li>
+                <li>
+                <a href="ca_consultar.html">Consulta Movimientos</a>
+                </li>
+                <li> <a href="ca_informacion.html">Información de Ahorros y Préstamos</a> </li>
+                      <li> <a href="ca_aviso.html">Aviso de Privacidad</a> </li>
+                </ul>
+                </li>
+                <li class="submenu">
+                <a class="act" href="seguros.html">Seguros</a>
+                <ul>
+                <li>
+                <a href="s_movimientos.html">Mis Seguros</a>
+                </li>
+                <li>
+                <a href="s_pago_seguros.html">Pago de Seguro</a>
+                </li>
+                <li>
+                <a href="s_informacion.html">Contrata un Seguro</a>
+                </li>
+                <li>
+                <a href="s_beneficiarios.html">Beneficiarios</a>
+                </li>
+                </ul>
+                </li>
+                <li class="submenu">
+                <a href="salud.html">Salud</a>
+                <ul>
+                <li>
+                <a href="salud_nuestra_clinica_mision.html">Nuestra Clínica</a>
+                </li>
+                <li>
+                <a href="salud_servicios_medicos.html">Información Servicios Médicos</a>
+                </li>
+                <li>
+                <a href="salud_reglamento_padres_socio.html">Reglamento</a>
+                </li>
+                <li>
+                <a href="salud_citas.html">Citas</a>
+                </li>
+                <li>
+                <a href="salud_actualizar_datos.html">Actualización de Datos de la Clínica</a>
+                </li>
+                <li>
+                <a href="salud_cartilla_electronica.html">Cartillas de Salud</a>
+                </li>
+                <li>
+                <a href="salud_aviso.html">Aviso de Privacidad</a>
+                </li>
+                </ul>
+                </li>
+                <li class="submenu">
+                <a href="calidad_vida.html">Calidad de Vida</a>
+                <ul>
+                <li>
+                <a href="#">Centro de Desarrollo Social</a>
+                </li>
+                <li>
+                <a href="calidad_academias.html">Academias Culturales</a>
+                </li>
+                <li>
+                <a href="calidad_cursos.html">Cursos Deportivos</a>
+                </li>
+                <li>
+                <a href="calidad_torneos.html">Torneos Deportivos</a>
+                </li>
+                <li>
+                <a href="calidad_eventos.html">Eventos SCYF</a>
+                </li>
+                <li>
+                <a href="calidad_reglamento_salon-juegos.html">Reglamentos</a>
+                </li>
+                <li>
+                <a href="calidad_comedores.html">Servicio de Alimentos y Bebidas</a>
+                </li>
+                </ul>
+                </li>
+                <li class="der">
+                <a href="noticias.html">Noticias</a>
+                </li>
+              </ul>	
+            </div>
+          </div>
+  				<div id="content">
+          	<div class="dSombraCD">
+            	<div class="dSombraCI">
+              	<div class="dLine mBot10 tCverde">
+                	<div class="path2">
+                    <a href="home.html">Inicio</a> » <a href="seguros.html">Seguros</a> » <strong class="tVerde">Contrata un Seguro</strong>
+                  </div>
+                  <div class="p10">
+                  	<div class="clearfix dLine3">
+                  	<div class="dB3A">
+                  		<h1 class="tit01 tCeleste clear">Contrata<br /> un Seguro</h1>  	
+                    </div>
+                    <div class="dB3B">
+                  		<div class="dCom">
+                      	SCYF es una asociación que agrupa a las empresas patrocinadoras y su personal para impulsar la calidad de vida de éste y su familia".
+                      </div>  
+                    </div>
+                  </div>
+                  <div class="clear" style="border-bottom: 3px solid #FCD58D;">
+                  	<table class="tabla07" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:none;">
+                      <tr>
+                        <td width="360">
+                        	<h2><strong>Seguro de Autos</strong></h2>
+                        </td>
+                        <td align="left">&nbsp;</td>
+                      </tr>
+                      <tr>
+                      	<td width="360">
+                        	Tipo de auto:</td><td align="left">
+                              <select name="" style="width:191px;height:26px">
+                            <option>Sedan</option>
+                            <option>Pick-up</option>
+                            <option>Wagon</option>
+                            </select>
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                        	Marca:</td><td align="left">
+                              <select name="" style="width:191px;height:26px">
+                            <option>Acura</option>
+                            <option>Alfa Romeo</option>
+                            <option>Audi</option>
+                            <option>Bentley</option>
+                            <option>BMW</option>
+                            <option>Buick</option>
+                            <option>Cadillac</option>
+                            <option>Chevrolet</option>
+                            <option>Chrysler</option>
+                            <option>FAW</option>
+                            <option>Ferrari</option>
+                            <option>Fiat</option>
+                            <option>Ford</option>
+                            <option>GMC</option>
+                            <option>Honda</option>
+                            <option>Hummer</option>
+                            <option>Infiniti</option>
+                            <option>Jaguar</option>
+                            <option>Lada</option>
+                            <option>Land Rover</option>
+                            <option>Lincoln</option>
+                            <option>Lotus</option>
+                            <option>Maserati</option>
+                            <option>Mazda</option>
+                            <option>Mercedes-Benz</option>
+                            <option>Mercury</option>
+                            <option>MG</option>
+                            <option>Mini</option>
+                            <option>Mitsubishi</option>
+                            <option>Nissan</option>
+                            <option>Peugeot</option>
+                            <option>Pontiac-Fiat</option>
+                            <option>Porsche</option>
+                            <option>Renault</option>
+                            <option>Rolls Royce</option>
+                            <option>Rover</option>
+                            <option>Saab</option>
+                            <option>Seat</option>
+                            <option>Smart</option>
+                            <option>Subaru</option>
+                            <option>Suzuki</option>
+                            <option>VolksWagen</option>
+                            <option>Volvo</option>
+                            </select>
+                        	</td>
+                      </tr> 
+					  <tr>
+					  	<td width="360">Suma asegurada</td><td align="left"><input name="" type="text" style="margin:0; width:191px;"/></td>
+					  </tr>
+                                            <tr>
+                                           <td width="360"> 
+                      Modelo:</td><td align="left">
+                      <select name="" style="width:191px;height:26px">
+<optgroup label="Acura">
+<option>ILX</option>
+<option>MDX</option>
+<option>RDX</option>
+<option>RL</option>
+<option>TL</option>
+<option>TSX</option>
+</optgroup>
+<optgroup label="Alfa Romeo">
+<option>Mito</option>
+<option>Giulietta</option>
+<option>159</option>
+</optgroup>
+<optgroup label="Audi">
+<option>A1</option>
+<option>A3</option>
+<option>A4</option>
+<option>A5</option>
+<option>A6</option>
+<option>A7</option>
+<option>A8</option>
+<option>S3</option>
+<option>S4</option>
+<option>S5</option>
+<option>RS 6</option>
+<option>TT</option>
+<option>Q3</option>
+<option>Q5</option>
+<option>Q7</option>
+<option>R8</option>
+</optgroup>
+<optgroup label="Bentley">
+<option>Continental GT</option>
+<option>Continental Flying</option>
+<option>Continental GTC</option>
+<option>Mulsanne</option>
+</optgroup>
+<optgroup label="BMW">
+<option>Serie 1 Coupe</option>
+<option>Serie 3 Sedan</option>
+<option>Serie 3 Coupe</option>
+<option>Serie 3 Convertible</option>
+<option>Serie 5 Sedan</option>
+<option>Serie 5 Gran Turismo</option>
+<option>Serie 6 Coupe</option>
+<option>Serie 6 Convertible</option>
+<option>Serie 7 Sedan</option>
+<option>M3 Coupe</option>
+<option>M Series M5</option>
+<option>Series M6 Coupe</option>
+<option>X1</option>
+<option>X3</option>
+<option>X5</option>
+<option>X6</option>
+<option>Z4</option>
+</optgroup>
+<optgroup label="Buick">
+<option>Enclave</option>
+<option>Lacrosse</option>
+<option>Century</option>
+</optgroup>
+<optgroup label="Cadillac">
+<option>CTS</option>
+<option>CTS V</option>
+<option>STS</option>
+<option>SRX</option>
+<option>Escalade</option>
+<option>Escalade ESV</option>
+<option>Escalade Platinum</option>
+<option>Escalade EXT</option>
+</optgroup>
+<optgroup label="Chevrolet">
+<option>Spark</option>
+<option>Matiz</option>
+<option>Chevy</option>
+<option>Aveo</option>
+<option>Cruze</option>
+<option>Corvette</option>
+<option>Corvette GSC</option>
+<option>Corvette ZR1</option>
+<option>Camaro</option>
+<option>Camaro Convertible</option>
+<option>Camaro 45th</option>
+<option>Malibu</option>
+<option>Captiva Sport</option>
+<option>Tahoe</option>
+<option>Traverse</option>
+<option>Suburban</option>
+<option>Colorado</option>
+<option>Cheyenne</option>
+<option>Avalanche</option>
+<option>Silverado</option>
+<option>Tornado Pick Up</option>
+<option>Express Passager Van</option>
+</optgroup>
+<optgroup label="Chrysler">
+<option>Atos</option>
+<option>Attitude</option>
+<option>200 Touring</option>
+<option>300</option>
+<option>Viper</option>
+<option>Avenger</option>
+<option>Charger</option>
+<option>Liberty</option>
+<option>Caliber</option>
+<option>Compass</option>
+<option>Patriot</option>
+<option>Grand Cherokee</option>
+<option>PT Cruiser</option>
+<option>Journey</option>
+<option>Pacifica</option>
+<option>Jeep Commander</option>
+<option>Durango</option>
+<option>Nitro</option>
+<option>Voyager</option>
+<option>Town Country</option>
+<option>Jeep Unlimited</option>
+<option>Ram 1500-2500</option>
+<option>Ram Quad Cab</option>
+<option>Mega Cab</option>
+<option>Dakota</option>
+<option>Wrangler</option>
+</optgroup>
+<optgroup label="Ferrari">
+<option>458 Italia</option>
+<option>Spider</option>
+<option>FF</option>
+<option>California</option>
+</optgroup>
+<optgroup label="Fiat">
+<option>500</option>
+<option>500C</option>
+<option>Panda</option>
+<option>Linea</option>
+<option>Strada</option>
+<option>Ducato</option>
+</optgroup>
+<optgroup label="Ford">
+<option>Ikon</option>
+<option>Fiesta</option>
+<option>Focus</option>
+<option>Mustang</option>
+<option>Fussion SE</option>
+<option>Eco Sport</option>
+<option>Escape</option>
+<option>Explorer</option>
+<option>Expedition</option>
+<option>Edge</option>
+<option>Lobo</option>
+<option>Transit</option>
+<option>Courier</option>
+<option>Sport Trac</option>
+<option>Ranger</option>
+<option>F 150-250</option>
+<option>Econoline Van</option>
+<option>F 350-450-550 SD</option>
+</optgroup>
+<optgroup label="GMC">
+<option>Yukon</option>
+<option>Acadia</option>
+<option>Canyon</option>
+<option>Sierra</option>
+</optgroup>
+<optgroup label="Honda">
+<option>Honda Fit</option>
+<option>Honda City</option>
+<option>Civic Sedan</option>
+<option>Civic Coupe</option>
+<option>Civic Hybrid</option>
+<option>Accord Sedan</option>
+<option>Accord Coupe</option>
+<option>Accord Coupe</option>
+<option>Accord Crosstour</option>
+<option>CR-V</option>
+<option>Honda Pilot</option>
+<option>Odyssey</option>
+<option>Ridgeline</option>
+</optgroup>
+<optgroup label="Infiniti">
+<option>G Sedan</option>
+<option>G Coupe</option>
+<option>M</option>
+<option>FX</option>
+<option>QX</option>
+</optgroup>
+<optgroup label="Jaguar">
+<option>XKR Convertible</option>
+<option>XKR Coupe</option>
+<option>XJ</option>
+<option>XF</option>
+</optgroup>
+<optgroup label="Land Rover">
+<option>Evoque</option>
+<option>LR2</option>
+<option>LR4</option>
+<option>Range Rover</option>
+<option>Range Rover Sport</option>
+<option>Defender</option>
+</optgroup>
+<optgroup label="Lincoln">
+<option>MKZ</option>
+<option>MKS</option>
+<option>MKX</option>
+<option>Navigator</option>
+<option>Mark LT</option>
+</optgroup>
+<optgroup label="Maserati">
+<option>Quattroporte</option>
+<option>Gran Turismo</option>
+<option>Gran Cabrio Sport</option>
+</optgroup>
+<optgroup label="Mazda">
+<option>Mazda 2</option>
+<option>Mazda 3</option>
+<option>Mazda Speed 3</option>
+<option>Mazda 5</option>
+<option>Mazda 6</option>
+<option>Mazda 3 Hatchback</option>
+<option>MX5</option>
+<option>CX7</option>
+<option>CX9</option>
+</optgroup>
+<optgroup label="Mercedes-Benz">
+<option>Clase B</option>
+<option>Clase C</option>
+<option>Clase CL</option>
+<option>Clase CLS</option>
+<option>Clase E</option>
+<option>Clase G</option>
+<option>Clase GL</option>
+<option>Clase GLK</option>
+<option>Clase M</option>
+<option>Clase R</option>
+<option>Clase S</option>
+<option>Clase SL</option>
+<option>Clase SLK</option>
+</optgroup>
+<optgroup label="Mini">
+<option>Mini Cooper</option>
+<option>Mini Convertible</option>
+<option>Cooper S Chili</option>
+<option>Cooper Yours</option>
+<option>Jonh Cooper Works</option>
+<option>Clubman</option>
+<option>Countryman</option>
+<option>Countryman Cooper S</option>
+</optgroup>
+<optgroup label="Mitsubishi">
+<option>Lancer</option>
+<option>Outlander</option>
+<option>Endeavor</option>
+<option>Montero</option>
+<option>Montero Sport</option>
+<option>L200</option>
+</optgroup>
+<optgroup label="Nissan">
+<option>March</option>
+<option>Tsuru</option>
+<option>Tiida</option>
+<option>Leaf</option>
+<option>Versa</option>
+<option>Juke</option>
+<option>Sentra</option>
+<option>Altima</option>
+<option>Maxima</option>
+<option>370Z</option>
+<option>Rogue</option>
+<option>X Trail</option>
+<option>Murano</option>
+<option>Pathfinder</option>
+<option>Pathfinder Armada</option>
+<option>Titan</option>
+<option>Doble Cabina</option>
+<option>Frontier</option>
+<option>Pick Up</option>
+<option>Estaca</option>
+<option>Chasis</option>
+<option>Cabstar</option>
+<option>Urban</option>
+</optgroup>
+<optgroup label="Peugeot">
+<option>207 Sedan</option>
+<option>207 CC</option>
+<option>207 Compact</option>
+<option>207 RC</option>
+<option>207 Europa</option>
+<option>308</option>
+<option>308 CC</option>
+<option>508</option>
+<option>RCZ</option>
+<option>3008</option>
+<option>Partner</option>
+<option>Grand Raid</option>
+<option>Manager</option>
+</optgroup>
+<optgroup label="Porsche">
+<option>Boxster</option>
+<option>911 Carrera</option>
+<option>Cayenne</option>
+<option>911 Turbo</option>
+<option>Targa</option>
+<option>911 GT3</option>
+<option>Cayman S</option>
+<option>Panamera</option>
+</optgroup>
+<optgroup label="Renault">
+<option>Safrane</option>
+<option>Sandero</option>
+<option>Scala</option>
+<option>Koleos</option>
+<option>Duster</option>
+<option>Kangoo</option>
+<option>Trafic</option>
+</optgroup>
+<optgroup label="Rolls Royce">
+<option>Phantom</option>
+<option>Phantom Extended Wheelbase</option>
+<option>Phantom Coupe</option>
+<option>Phantom Drophead Coupe</option>
+<option>Ghost</option>
+</optgroup>
+<optgroup label="Seat">
+<option>Ibiza</option>
+<option>Ibiza Sport Coupe</option>
+<option>Bocanegra</option>
+<option>Leon</option>
+<option>Leon FR</option>
+<option>Cupra</option>
+<option>Altea</option>
+<option>Altea XL</option>
+<option>Exeo</option>
+<option>Freetrack</option>
+</optgroup>
+<optgroup label="Smart">
+<option>Smart Coupe</option>
+<option>Smart Brabus</option>
+<option>Smart Convertible</option>
+</optgroup>
+<optgroup label="Subaru">
+<option>Legacy</option>
+<option>Outback</option>
+<option>Tribeca</option>
+<option>Impreza</option>
+<option>Impreza WRX</option>
+<option>Forester</option>
+</optgroup>
+<optgroup label="Suzuki">
+<option>Swift</option>
+<option>SX4 X</option>
+<option>Grand Vitara</option>
+<option>SX4 X Over</option>
+<option>Kizashi</option>
+</optgroup>
+<optgroup label="VolksWagen">
+<option>Gol</option>
+<option>Golf GTI</option>
+<option>Beetle</option>
+<option>Clasico</option>
+<option>Jetta</option>
+<option>Bora</option>
+<option>Passat</option>
+<option>CC</option>
+<option>Golf SportWagen</option>
+<option>Crossfox</option>
+<option>Touareg</option>
+<option>Tiguan</option>
+<option>Routan</option>
+<option>Saveiro</option>
+<option>Transporter</option>
+<option>Crafter</option>
+<option>Amarok</option>
+</optgroup>
+<optgroup label="Volvo">
+<option>Volvo C30</option>
+<option>Volvo S40</option>
+<option>Volvo C70</option>
+<option>Volvo S80</option>
+<option>XC60</option>
+<option>Volvo XC90</option>
+</optgroup>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+Descripción:</td><td align="left">
+                      <select name"" style="width:191px; height:26px">
+                      <option>&nbsp;</option>
+                      </select>
+                      </td>
+                      </tr>
+                      
+                       <tr>
+                      <td>
+                      Monto de equipo especial, adaptaciones y conversiones:</td><td align="left">
+                      <input type="text" name"" style="width:191px;height:26px" /></td>
+					  </tr>
+					  <tr><td>
+                      Vigencia Inicio:<br /></td><td align="left">
+                      <label>01/01/12</label>
+					  </td></tr>
+					  <tr><td>
+                      Vigencia Fin:<br /></td><td align="left">
+                      <label>01/01/13</label><br /><br />
+					  </td></tr>
+					  <tr><td>
+                      <a href="#" id="cotizar"><img src="images/btns/cotizarbtn.png" width="122" height="31"/></a>
+                      </td>
+                      </tr>                                          
+                    </table>
+                    <div class="hidden" id="paquetes">
+					<h1 class="paquetesh1">PAQUETES</h1>
+					<table width="100%" border="0" cellspacing="0" cellpadding="5" class="paquetesauto">
+						<tr>
+							<td><h2 class="tipopaqh2">AMPLIO PLUS</h2></td>
+							<td><h2 class="tipopaqh2">AMPLIO</h2></td>
+							<td><h2 class="tipopaqh2">LIMITADO</h2></td>
+							<td><h2 class="tipopaqh2">RESPONSABILIDAD CIVIL</h2></td>
+						</tr>
+						<tr>
+							<td>
+								<span>Costo: </span><br /><br /><span>Descuento nominal: </span>
+								<p><a rel="shadowbox;width=580;height=540" href="s_contrata_detalle_amplia_plus.html"><img src="images/btns/detalleseg.png" width="92" height="31"/></a><a href="s_contrata_seguro_autos_1.html"><img src="images/btns/contratarseg.png" width="103" height="31"/></a></p>
+							</td>
+							<td>
+								<span>Costo: </span><br /><br /><span>Descuento nominal: </span>
+								<p><a rel="shadowbox;width=580;height=540" href="s_contrata_detalle_amplia.html"><img src="images/btns/detalleseg.png" width="92" height="31"/></a><a href="s_contrata_seguro_autos_1.html"><img src="images/btns/contratarseg.png" width="103" height="31"/></a></p>
+							</td>
+							<td>
+								<span>Costo: </span><br /><br /><span>Descuento nominal: </span>
+								<p><a rel="shadowbox;width=580;height=540" href="s_contrata_detalle_limitada.html"><img src="images/btns/detalleseg.png" width="92" height="31"/></a><a href="s_contrata_seguro_autos_1.html"><img src="images/btns/contratarseg.png" width="103" height="31"/></a></p>
+							</td>
+							<td>
+								<span>Costo: </span><br /><br /><span>Descuento nominal: </span>
+								<p><a rel="shadowbox;width=580;height=540" href="s_contrata_detalle_respcivil.html"><img src="images/btns/detalleseg.png" width="92" height="31"/></a><a href="s_contrata_seguro_autos_1.html"><img src="images/btns/contratarseg.png" width="103" height="31"/></a></p>
+							</td>
+						</tr>
+					</table>
+                    </div>
+                  </div>
+				  
+                  <div class=" mBot20">  
+				  	 
+                  </div>
+				  <a href="s_informacion.html" class="cancelarbtn"></a>
+				  <div class="dN3">
+                  	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="24%">
+                        	<h1>Otros servicios</h1>
+                          <h2>Conoce los diferentes <strong>tipos de ahorro</strong> que tenemos para ti.</h2>
+                        </td>
+                        <td width="18%">
+                        	<img src="images/photos/foto09.jpg" width="156" height="132" alt="" />
+                        </td>
+                        <td width="20%">
+                        	<h3>Seguro de Vivienda</h3>
+                          <h4>Se trata de un instrumento de inversión a la medida del cliente, además es accesible, cómodo, y seguro.</h4>
+                          <a class="mas" href="#">Ver más  »</a>
+                        </td>
+                        <td width="18%">
+                        	<img src="images/photos/foto10.jpg" width="156" height="132" alt="" />
+                        </td>
+                        <td width="20%">
+                        	<h3>Seguro de Cáncer</h3>
+                          <h4>Se trata de un instrumento de inversión a la medida del cliente, además es accesible, cómodo, y seguro.</h4>
+                          <a class="mas" href="#">Ver más  »</a>
+                        </td>
+                      </tr>
+                    </table>
+                    <div align="right"><a class="mas" href="#">Ver todo  »</a></div>
+                  </div>
+                  </div>
+                </div>
+                <div class="dBtn">
+               		<a href="directorio_mensaje.html"><img src="images/misc/buzon.png" width="300" height="61" alt="" /></a>
+                	<a href="directorio.html"><img src="images/misc/directorio.png" width="300" height="61" alt="" /></a>
+                	<a href="clasificados.html"><img src="images/misc/clasificados.png" width="168" height="61" alt="" /></a>
+                	<a href="ligas_interes.html"><img src="images/misc/ligas.png" width="175" height="61" alt="" /></a>
+                </div>
+              </div>
+            </div>          
+					</div>
+        </div>
+      </div>
+    </div>
+    </div>
+		<div id="footer">
+    	Derechos Reservados  - <strong>SCYF 2012</strong>
+    </div>
+	</div>
+</div>
+</body>
+</html>

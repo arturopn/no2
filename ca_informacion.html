@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Titulo</title>
+<link href="css/dbstyles.css" rel="stylesheet" type="text/css" />
+<link rel="alternate stylesheet" type="text/css" media="screen,print" href="css/text.css" title="normal" />
+<link href="css/printversion.css" rel="stylesheet" type="text/css" media="print"/>
+<!--[if lte IE 6]><link rel="stylesheet" href="../css/ie.css" /><![endif]-->
+<script src="js/jquery.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/shadowbox.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/functions.js" type="text/javascript" language="javascript1.2"></script>
+<script src="js/engine.js" type="text/javascript" language="javascript1.2"></script>
+<script type="text/javascript">
+  	$(document).ready(function(){
+		$('.submenu').hover(
+				function(){
+					$(this).find('ul').css('left','auto');
+					$(this).addClass('sfhover');
+				},
+				function(){
+					$(this).find('ul').css('left','-999em');
+					$(this).removeClass('sfhover');
+				}
+			);
+		
+		h = 0;
+		$('.dInf').each(function(){ if( $(this).height() > h ) h = $(this).height();  }); h+=20;
+		$('.dInf').css('height', h + 'px');
+		
+	});
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="main">
+    <div class="dSombraI">
+      <div class="dSombraD">
+        <div class="dSombraB">
+          <div class="dBGmain">
+            <div id="header" class="clearfix"> <a href="home.html"><img src="images/header/logo.gif" width="81" height="119" alt="" class="fLeft" /></a>
+              <div class="dHead1">
+                <div class="clearfix mBot20">
+                  <div class="dH1a"> Noviembre 14 de 2012<br />
+                    Bienvenido, Jorge Cepeda Martínez | <a href="#"><strong>Cerrar Sesión</strong></a> </div>
+                  <div class="dH1b clearfix">
+                    <button type="submit"><img src="images/header/btn_buscar.gif" width="26" height="26" alt="" /></button>
+                    <input name="" type="text" value="Buscar" />
+                  </div>
+                </div>
+                <ul id="nav" class="clearfix">
+                  <li><a class="izq" href="home.html">Home</a></li>
+                  <li class="submenu"><a href="historia_somos.html">Somos SCYF</a>
+                    <ul>
+                      <li> <a href="historia_quienes.html">Identidad</a> </li>
+                      <li> <a href="historia_antecedentes.html">Historia</a> </li>
+                      <li> <a href="historia_filosofia_identidad.html">Filosofía</a> </li>
+                      <li> <a href="historia_institucion_proposito.html">Institución</a> </li>
+                    </ul>
+                  </li>
+                  <li class="submenu"> <a class="act" href="caja_ahorro.html">Caja de Ahorro</a>
+                    <ul>
+                      <li> <a href="ca_transaccionar2.html">Separación de Ahorros</a> </li>
+                      <li> <a href="ca_transaccionar2_1.html">Pago de Préstamos</a> </li>
+                      <li> <a href="ca_estado_cuenta.html">Estado de Cuenta</a> </li>
+                      <li> <a href="ca_consultar.html">Consulta Movimientos</a> </li>
+                      <li> <a href="ca_informacion.html">Información de Ahorros y Préstamos</a> </li>
+                      <li> <a href="ca_aviso.html">Aviso de Privacidad</a> </li>
+                    </ul>
+                  </li>
+                  <li class="submenu"> <a href="seguros.html">Seguros</a>
+                    <ul>
+                      <li> <a href="s_movimientos.html">Mis Seguros</a> </li>
+                      <li> <a href="s_pago_seguros.html">Pago de Seguro</a> </li>
+                      <li> <a href="s_informacion.html">Contrata un Seguro</a> </li>
+                      <li> <a href="s_beneficiarios.html">Beneficiarios</a> </li>
+                    </ul>
+                  </li>
+                  <li class="submenu"> <a href="salud.html">Salud</a>
+                    <ul>
+                      <li> <a href="salud_nuestra_clinica_mision.html">Nuestra Clínica</a> </li>
+                      <li> <a href="salud_servicios_medicos.html">Información Servicios Médicos</a> </li>
+                      <li> <a href="salud_reglamento_padres_socio.html">Reglamento</a> </li>
+                      <li> <a href="salud_citas.html">Citas</a> </li>
+                      <li> <a href="salud_actualizar_datos.html">Actualización de Datos de la Clínica</a> </li>
+                      <li> <a href="salud_cartilla_electronica.html">Cartillas de Salud</a> </li>
+                      <li> <a href="salud_aviso.html">Aviso de Privacidad</a> </li>
+                    </ul>
+                  </li>
+                  <li class="submenu"> <a href="calidad_vida.html">Calidad de Vida</a>
+                    <ul>
+                      <li> <a href="#">Centro de Desarrollo Social</a> </li>
+                      <li> <a href="calidad_academias.html">Academias Culturales</a> </li>
+                      <li> <a href="calidad_cursos.html">Cursos Deportivos</a> </li>
+                      <li> <a href="calidad_torneos.html">Torneos Deportivos</a> </li>
+                      <li> <a href="calidad_eventos.html">Eventos SCYF</a> </li>
+                      <li> <a href="calidad_reglamento_salon-juegos.html">Reglamentos</a> </li>
+                      <li> <a href="calidad_comedores.html">Servicio de Alimentos y Bebidas</a> </li>
+                    </ul>
+                  </li>
+                  <li class="der"> <a href="noticias.html">Noticias</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div id="content">
+              <div class="dSombraCD">
+                <div class="dSombraCI">
+                  <div class="dLine mBot10 tCverde">
+                    <div class="path2"> <a href="home.html">Inicio</a> » <a href="seguros.html">Caja de Ahorro</a> » <strong class="tVerde">Información</strong> </div>
+                    <div class="p10">
+                      <div class="clearfix dLine3">
+                        <div class="dB3A">
+                          <h1 class="tit01 tCeleste clear">Informaci&oacute;n</h1>
+                        </div>
+                        <div class="dB3B">
+                          <div class="dCom"> “Trabajo y Ahorro” es el lema de la Institución y el espíritu que ha inspirado la creación de la Caja de Ahorros SCYF, para fortalecer el patrimonio familiar a través de magníficas herramientas". </div>
+                        </div>
+                      </div>
+                      <div class="clear bbot mBot20">
+                        <h1 class="tit03">Ahorros</h1>
+                        <table class="tablaInf" width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td><div class="dInf dA1 relative">
+                                <h3>Permite destinar un porcentaje o un monto del salario para ayudarte a cubrir gastos periódicos del corto plazo, como pago de servicios, colegiaturas, entre otros. Disponible cuando lo requieras, y con un interés superior al del mercado.</h3>
+                                <br />
+                                <a class="mas bottom" href="ca_ahorro_reglamento.html">Ver más  »</a></div></td>
+                            <td><div class="dInf dA2 relative">
+                                <h3>Premia el ahorro con rendimientos superiores al Ahorro a la Vista y las opciones del mercado. Es la herramienta ideal de ahorro para el mediano y largo plazo.</h3>
+                                <br />
+                                <a class="mas bottom" href="ca_ahorrofijo_reglamento.html">Ver más  »</a> </div></td>
+                            <td><div class="dInf dA3 relative">
+                                <h3>Permite crear un fondo para que lo disfrutes en la etapa de tu jubilación o retiro laboral, con tasa de interés aún mejor, sin opción a retiros anticipados.</h3>
+                                <br />
+                                <a class="mas bottom" href="ca_ahorrojubilacion_reglamento.html">Ver más  »</a> </div></td>
+                            <td><div class="dInf dA4 relative">
+                                <h3>Caja de Ahorros SCYF apoya a las empresas con la administración de este fondo, cuando aplique. Los préstamos de este fondo se solicitan en diciembre y se entregan en enero.</h3>
+                                <a class="mas bottom" href="ca_fondoahorro_reglamento.html">Ver más  »</a> </div></td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="clear">
+                        <h1 class="tit03">Préstamos</h1>
+                        <table class="tablaInf" width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="25%"><div class="dInf dP1 relative">
+                                <h3>Para cubrir urgencias y necesidades diversas, como artículos para el hogar, ropa, automóvil, pago de deudas, gastos médicos o de hospital, gastos funerales, entre otros.</h3>
+                                <a class="mas bottom" href="ca_prestamopersonal_reglamento.html">Ver más  »</a></div></td>
+                            <td width="25%"><div class="dInf dP2 relative">
+                                <h3>Para adquirir, construir o remodelar casa-habitación, terrenos para este mismo fin y pago de pasivos hipotecarios.</h3>
+                                <a class="mas bottom" href="ca_prestamocasa_reglamento.html">Ver más  »</a> </div></td>
+                            <td colspan="2"><div class="dInf dP3 relative">
+                                <h3>Para ayudarte en los gastos escolares, como inscripciones, colegiaturas, equipo de cómputo, etcétera.</h3>
+                                <br />
+                                <a class="mas bottom" href="ca_prestamoeducativo_reglamento.html">Ver más  »</a> </div></td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dBtn"> <a href="directorio_mensaje.html"><img src="images/misc/buzon.png" width="300" height="61" alt="" /></a> <a href="#"><img src="images/misc/directorio.png" width="300" height="61" alt="" /></a> <a href="#"><img src="images/misc/clasificados.png" width="168" height="61" alt="" /></a> <a href="ligas_interes.html"><img src="images/misc/ligas.png" width="175" height="61" alt="" /></a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"> Derechos Reservados  - <strong>SCYF 2012</strong> </div>
+  </div>
+</div>
+</body>
+</html>
